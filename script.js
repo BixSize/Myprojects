@@ -1,10 +1,14 @@
-// who's buying Lunch Code Chalange
+// To UpperCase()
 
-function whosPaying(names) {
-    var numberOfPeople = names.length;
-    length
-    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+var nickname = "Lukman";
+nickname.toUpperCase()
 
-    var randomPerson = names[randomPersonPosition];
-    return randomPerson + " is going to buy lunch today!";
-}
+
+
+var myName = prompt("what is your name?");
+var firstChar = myName.slice(0, 1);
+var UpperCaseFirsChar = firstChar.toUpperCase();
+var restOfName = myName.slice(1, myName.length);
+restOfName = restOfName.toLowerCase();
+var capitalisedName = UpperCaseFirsChar + restOfName;
+alert("Hello" + capitalisedName);
